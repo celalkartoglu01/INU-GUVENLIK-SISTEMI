@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>996</width>
+    <height>715</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>-40</y>
+      <width>1011</width>
+      <height>761</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>Adsız.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QSplitter" name="splitter_2">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>100</y>
+      <width>96</width>
+      <height>0</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+    <widget class="QSplitter" name="splitter">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>20</y>
+      <width>491</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:24pt; font-weight:600;&quot;&gt;ANA SAYFA&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QSplitter" name="splitter_5">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>90</y>
+      <width>781</width>
+      <height>541</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+    <widget class="QSplitter" name="splitter_3">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <widget class="QPushButton" name="misafirgiris">
+      <property name="text">
+       <string>Misafir Girişi</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../../../../xampp/htdocs/İNÜ GÜVENLİK/guest.svg</normaloff>../../../../../xampp/htdocs/İNÜ GÜVENLİK/guest.svg</iconset>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="ogrencigiris">
+      <property name="text">
+       <string>Öğrenci Girişi</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../../../../xampp/htdocs/İNÜ GÜVENLİK/student-thin.svg</normaloff>../../../../../xampp/htdocs/İNÜ GÜVENLİK/student-thin.svg</iconset>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="akademisyengiris">
+      <property name="text">
+       <string>Akademisyen Girişi</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../../../../xampp/htdocs/İNÜ GÜVENLİK/professor.svg</normaloff>../../../../../xampp/htdocs/İNÜ GÜVENLİK/professor.svg</iconset>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QSplitter" name="splitter_4">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <widget class="QPushButton" name="misafircikis">
+      <property name="text">
+       <string>Misafir Çıkışı</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../../../../xampp/htdocs/İNÜ GÜVENLİK/guest.svg</normaloff>../../../../../xampp/htdocs/İNÜ GÜVENLİK/guest.svg</iconset>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="ogrencicikis">
+      <property name="text">
+       <string>Öğrenci Çıkışı</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../../../../xampp/htdocs/İNÜ GÜVENLİK/student-thin.svg</normaloff>../../../../../xampp/htdocs/İNÜ GÜVENLİK/student-thin.svg</iconset>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="akademisyencikis">
+      <property name="text">
+       <string>Akademisyen Çıkışı</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../../../../xampp/htdocs/İNÜ GÜVENLİK/professor.svg</normaloff>../../../../../xampp/htdocs/İNÜ GÜVENLİK/professor.svg</iconset>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>996</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
